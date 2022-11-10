@@ -9,9 +9,10 @@ public class RequestCounterMeter {
     private final Counter requestCount;
 
     public RequestCounterMeter(MeterRegistry meterRegistry) {
-        this.requestCount = Counter.builder("api_request_count")
+        Counter counter = Counter.builder("api_request_count")
                 .description("Number of hello requests")
-                .register(meterRegistry);;
+                .register(meterRegistry);
+        requestCount = counter;
     }
 
     public void increment() {

@@ -21,5 +21,6 @@ public class ProfileManager {
     public void logProfiles() {
         String[] activeProfiles = environment.getActiveProfiles();
         log.warn("Active profiles: " + Arrays.toString(activeProfiles));
+
     }
 }

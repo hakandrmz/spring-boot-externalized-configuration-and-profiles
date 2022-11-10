@@ -2,9 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/actuator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/externalizedconfiguration" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/profiles" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/springbootdevtools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/actuator" vcs="" />
+    <mapping directory="$PROJECT_DIR$/externalizedconfiguration" vcs="" />
+    <mapping directory="$PROJECT_DIR$/profiles" vcs="" />
+    <mapping directory="$PROJECT_DIR$/springbootdevtools" vcs="" />
   </component>
 </project>

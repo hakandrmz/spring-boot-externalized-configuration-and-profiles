@@ -18,9 +18,9 @@ public class GreetingController {
         String name = parameters.get("name");
         String surname = parameters.get("surname");
 
-        map.put("title","Atmosware");
-        map.put("name",name);
-        map.put("surname",surname);
+        map.put("title", "Atmosware");
+        map.put("name", name);
+        map.put("surname", surname);
         return "index";
     }
 
